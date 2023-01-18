@@ -15,9 +15,11 @@ https://github.com/WoyramA/Pewlett-Hackard-Analysis/tree/main/Deliverables
 
 ####The Number of Retiring Employees by Title
  https://github.com/WoyramA/Pewlett-Hackard-Analysis/blob/main/Deliverables/Deliverable%201_retiring_titles.csv
+ 
 Employees who were preparing for retirement were 72458 in number. Of this number, 25916 were Senior Engineers, 24926 were Senior Staff and 9285 were Engineers. The rest were 7636 Staff, 3603 Technique Leaders, 1090 Assistant Engineers and 2 Managers.
 ####The Employees Eligible for the Mentorship Program
-https://github.com/WoyramA/Pewlett-Hackard-Analysis/blob/main/Deliverables/Deliverable%202_mentorship_eligibility.csv
+https://github.com/WoyramA/Pewlett-Hackard Analysis/blob/main/Deliverables/Deliverable%202_mentorship_eligibility.csv
+
 The results showed 1549 employees were eligible for the mentorship program. This reported number constituted 569 Senior Staff, 529 Senior Engineers, 190 Engineers, 155 Staff, 77 Technique Leaders and 29 Assistant Engineers.
 
 ###Summary
