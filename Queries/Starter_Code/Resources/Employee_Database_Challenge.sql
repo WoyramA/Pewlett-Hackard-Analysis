@@ -69,6 +69,8 @@ SELECT * FROM salaries;
 -- SELECT table_name, 
 -- table_schema FROM information_schema.tables WHERE table_schema NOT IN ('pg_catalog', 'information_schema');
 
+-- DELIVERABLE 1
+
 -- 1.Retrieve the emp_no, first_name, and last_name columns from the Employees table.
 -- Retirement requirement
 SELECT emp_no, first_name, last_name
@@ -140,11 +142,57 @@ FROM unique_titles
 GROUP BY title;
 
 SELECT * FROM retiring_title
--- INTO retiring_titles,
+-- INTO retiring_titles
 ORDER BY count DESC;
 
-
 SELECT * FROM retiring_titles;
+
+-- DELIVERABLE 2
+-- Using the ERD you created in this module as a reference and your knowledge of SQL queries, create a mentorship-eligibility table that holds the current employees who were born between January 1, 1965 and December 31, 1965.
+-- In the Employee_Database_challenge.sql file, write a query to create a Mentorship Eligibility table that holds the employees who are eligible to participate in a mentorship program.
+
+-- 1.Retrieve the emp_no, first_name, last_name, and birth_date columns from the Employees table.
+-- Mentorship Eligibility
+SELECT emp_no, first_name, last_name
+INTO employees_mentorship_info
+FROM employees 
+WHERE birth_date BETWEEN '1965-01-01' AND '1965-12-31';
+
+SELECT * FROM employees_mentorship_info;
+
+-- 2.Retrieve the from_date and to_date columns from the Department Employee table.
+-- Dept_info
+SELECT from_date, to_date
+INTO dept_info
+FROM dept_emp
+
+SELECT * FROM dept_info;
+
+-- 3.Retrieve the title column from the Titles table.
+SELECT title
+INTO emp_titles
+FROM titles
+
+SELECT * FROM emp_titles;
+
+-- 4.Use a DISTINCT ON statement to retrieve the first occurrence of the employee number for each set of rows defined by the ON () clause.
+
+-- 5.Create a new table using the INTO clause.
+
+-- 6.Join the Employees and the Department Employee tables on the primary key.
+
+-- 7.Join the Employees and the Titles tables on the primary key.
+
+-- 8.Filter the data on the to_date column to all the current employees, then filter the data on the birth_date columns to get all the employees whose birth dates are between January 1, 1965 and December 31, 1965.
+
+-- 9.Order the table by the employee number.
+
+-- 10.Export the Mentorship Eligibility table as mentorship_eligibilty.csv and save it to your Data folder in the Pewlett-Hackard-Analysis folder.
+
+-- 11.Before you export your table, confirm that it looks like this image:
+
+
+
 
 
 
