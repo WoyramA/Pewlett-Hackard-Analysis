@@ -13,6 +13,7 @@ The Employee database was analyzed using SQL and the results of the queries were
 The results of the Employee Database Analysis for the number of retiring employees by title and employees eligible for the mentorship program are explained:
 https://github.com/WoyramA/Pewlett-Hackard-Analysis/tree/main/Deliverables
 Image of table shown below:
+
 ![image](https://user-images.githubusercontent.com/114967995/213977226-5ad19250-00a0-4f6b-a32e-edd0a7674e6f.png)
 
 
@@ -23,6 +24,7 @@ Employees who were preparing for retirement were 72458 in number. Of this number
 #### The Employees Eligible for the Mentorship Program
 https://github.com/WoyramA/Pewlett-Hackard-Analysis/blob/main/Deliverables/Deliverable%202_mentorship_eligibility.csv
 Screenshot image of table shown below:
+
 ![image](https://user-images.githubusercontent.com/114967995/213977556-d82adf2d-8089-42bb-98ee-6aba521e3da5.png)
 
 
