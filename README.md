@@ -1,9 +1,9 @@
 # Pewlett-Hackard-Analysis
 
 ## Employee Database Analysis Report
-The Pewlett Hackard Employees Database Analysis Report gives a detailed description of the findings of the analysis of employee database of the company. The information derived using SQL queries by the analysis team (Bobby and Woyram) for the company manager is very crucial in preparation for the “silver tsunami” as current employees approach retirement age. The complementary data retrieved informs the manager about employees who are eligible to participate in a mentorship program.
+The Pewlett Hackard Employees Database Analysis Report gives a detailed description of the findings of the analysis of employee database of the company. The information derived using SQL queries by the analysis team for the company manager is very crucial in preparation for the “silver tsunami” as current employees approach retirement age. The complementary data retrieved informs the manager about employees who are eligible to participate in a mentorship program.
 ### Introduction
-The Employee Database Analysis, done jointly by Bobby and Woyram captures a SQL analysis of employee data to determine the number of retiring employees per title. The analysis also provides data to identify employees who are eligible to participate in a mentorship program. The data is further explained below.
+The Employee Database Analysis, done by Woyram captures a SQL analysis of employee data to determine the number of retiring employees per title. The analysis also provides data to identify employees who are eligible to participate in a mentorship program. The data is further explained below.
 #### Overview of analysis
 The Employee database was analyzed using SQL and the results of the queries were as follows. Two deliverables in csv format, further explained in the results section. Other associated files (saved in csv format) could be found in the Data folder: Resources folder located in the Starter_Code folder (under the Queries folder) of this repository. https://github.com/WoyramA/Pewlett-Hackard-Analysis/tree/main/Queries/Starter_Code/Resources/Data
 
